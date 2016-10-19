@@ -1,0 +1,19 @@
+PODS:
+  - CKSimpleGridItemView (0.1.0):
+    - SnapKit (~> 3.0.2)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - CKSimpleGridItemView (from `../`)
+
+EXTERNAL SOURCES:
+  CKSimpleGridItemView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CKSimpleGridItemView: 793742055fd29fa5879875fb70e628141acdd988
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 6f6e67d84722d58ba116348f3c25e71524bb01a7
+
+COCOAPODS: 1.1.0.rc.2

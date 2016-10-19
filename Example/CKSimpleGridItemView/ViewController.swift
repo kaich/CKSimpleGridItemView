@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CKSimpleGridItemView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let gridView = CKSimpleGridItemView(items: [CKGridItem(content: "5.72", unit: "版本"),CKGridItem(content: "106.66MB", unit: "大小"),CKGridItem(content: "1284万", unit: "下载量")], frame: CGRect(x: 10, y: 300, width: 300, height: 49))
+        self.view.addSubview(gridView)
     }
 
     override func didReceiveMemoryWarning() {
