@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CKSimpleGridItemView_Example' do
+  pod 'CKSimpleGridItemView', :path => '../'
+
+  target 'CKSimpleGridItemView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
